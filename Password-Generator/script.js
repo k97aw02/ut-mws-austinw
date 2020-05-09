@@ -6,6 +6,8 @@ var numArray = ["1", "2", "3"];
 var lowerArray = ["a", "b", "c"];
 var upperArray =["A", "B", "C"];
 var specialArray = ["!","@","#"];
+let passwordLengthChoice = document.querySelector("#passwordChoice").nodeValue()
+let specialCharacterChoice = document.querySelector("#specialCharacterChoices").nodeValue()
 
 
 function getOptions() {
